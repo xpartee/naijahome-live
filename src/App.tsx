@@ -551,7 +551,7 @@ export const App = function NaijaHome() {
   // If viewing listing detail
   if (selectedListing && tab === "browse") {
     return (
-      <div style={{ fontFamily: FONT.body, height: "100vh", display: "flex", flexDirection: "column", background: COLORS.white, maxWidth: 430, margin: "0 auto" }}>
+      <div style={{ fontFamily: FONT.body, height: "100vh", display: "flex", flexDirection: "column", width: "100%", maxWidth: "100vw", margin: 0 }}>
         <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&family=DM+Sans:wght@400;600;700&display=swap" rel="stylesheet" />
         <ListingDetail
           item={selectedListing}
@@ -564,7 +564,7 @@ export const App = function NaijaHome() {
   }
 
   return (
-    <div style={{ fontFamily: FONT.body, height: "100vh", display: "flex", flexDirection: "column", background: COLORS.grayLight, maxWidth: 430, margin: "0 auto", position: "relative" }}>
+    <div style={{ fontFamily: FONT.body, height: "100vh", display: "flex", flexDirection: "column", width: "100%", maxWidth: "100vw", margin: 0 }}>
       <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&family=DM+Sans:wght@400;600;700&display=swap" rel="stylesheet" />
 
       {/* Header */}
